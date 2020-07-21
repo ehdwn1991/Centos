@@ -268,55 +268,6 @@ $ ./idea.sh
 
 #### Install & Setting
 
-![스크린샷, 2018-12-26 14-54-44](assets/스크린샷, 2018-12-26 14-54-44.png)
-
-Check out from Version Control
-
-![스크린샷, 2018-12-26 14-55-00](assets/스크린샷, 2018-12-26 14-55-00.png)
-
-
-
-![스크린샷, 2018-12-26 14-55-16](assets/스크린샷, 2018-12-26 14-55-16.png)
-
-
-
-![스크린샷, 2018-12-26 14-57-49](assets/스크린샷, 2018-12-26 14-57-49.png)
-
-
-
-![스크린샷, 2018-12-26 14-57-55](assets/스크린샷, 2018-12-26 14-57-55.png)
-
-
-
-![스크린샷, 2018-12-26 14-57-58](assets/스크린샷, 2018-12-26 14-57-58.png)
-
-
-
-![스크린샷, 2018-12-26 14-59-36](assets/스크린샷, 2018-12-26 14-59-36.png)
-
-
-
-
-
-![스크린샷, 2018-12-26 15-00-59](assets/스크린샷, 2018-12-26 15-00-59.png)
-
-
-
-
-
-![스크린샷, 2018-12-26 15-01-06](assets/스크린샷, 2018-12-26 15-01-06.png)
-
->  potald는 cloudit Dash board와는 상관 없는 소개 홈페이지임.
-
-
-
-![스크린샷, 2018-12-26 15-01-24](assets/스크린샷, 2018-12-26 15-01-24.png)
-
-
-
-
-
-![스크린샷, 2018-12-26 15-01-53](assets/스크린샷, 2018-12-26 15-01-53.png)
 
 
 
@@ -743,7 +694,9 @@ $ yum install gtk3-devel
 ```shell
 $ git clone https://github.com/paullinuxthemer/Mc-OS-themes
 $ cd Mc-OS-themes
-$ cp -r McOS-MJV-Dark-mode-Gnome-3.30 /usr/share/theme/
+$ cp -r McOS-MJV-Dark-mode-Gnome-3.30 /usr/share/themes/
+# Mac Shell
+$ cp -r McOS-Shell-themes/McOS-Dark-Shell/gnome-shell /usr/share/themes/McOS-MJV-Dark-mode-Gnome-3.30/
 ```
 
 이제 기능 개선에서 해당 테마 적용하면됨.
